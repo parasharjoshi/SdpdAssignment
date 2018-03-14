@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:support="http://schemas.android.com/apk/res-auto">
+    <item
+        android:checkable="true"
+        android:checked="false"
+        support:showAsAction="never"
+        android:enabled="false"
+        android:visible="false"
+        android:title="@string/clear"
+        android:icon="@drawable/ic_dark_refresh"
+        />
+    <item
+        android:checkable="true"
+        android:checked="false"
+        android:id="@+id/home"
+        support:showAsAction="always"
+        android:visible="true"
+        android:enabled="true"
+        android:title="@string/home"
+        android:icon="@drawable/ic_dark_home"
+        android:onClick="goToHome"
+        />
+</menu>

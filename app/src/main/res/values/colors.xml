@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorJetBlack">#000000</color>
+    <color name="colorBlack">#414141</color>
+    <color name="colorGrey">#9e9fa1</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="errorText">#ff7878</color>
+
+
+</resources>

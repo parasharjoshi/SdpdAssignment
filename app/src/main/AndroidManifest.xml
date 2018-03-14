@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oracle.bits.parasjos.sdpdassignment">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/DarkTheme">
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_Home" />
+        <activity
+            android:name=".ContactDetailsActivity"
+            android:label="@string/title_activity_contact">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.oracle.bits.parasjos.sdpdassignment.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".FingerprintActivity"
+            android:label="@string/biometricActivityName" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SmsActivity"
+            android:label="@string/title_activity_sentsms">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oracle.bits.parasjos.sdpdassignment.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".TabbedSmsActivity"
+            android:label="@string/title_activity_allsms"
+            android:theme="@style/DarkTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oracle.bits.parasjos.sdpdassignment.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".SlateActivity"
+            android:label="@string/title_activity_slate">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oracle.bits.parasjos.sdpdassignment.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".PhoneDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_phone_details"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oracle.bits.parasjos.sdpdassignment.HomeActivity" />
+        </activity>
+    </application>
+
+</manifest>

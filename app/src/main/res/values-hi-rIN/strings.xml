@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">SDPD असाइनमेंट</string>
+    <string name="title_activity_Home">मुखपृष्ठ</string>
+    <string name="title_activity_login">प्रवेश</string>
+    <string name="title_activity_sentsms">भेजे गए संदेश</string>
+    <string name="title_activity_allsms">सभी संदेश</string>
+    <string name="title_activity_contact">संपर्क सूची</string>
+    <string name="title_activity_slate">रेखाचित्र</string>
+    <string name="title_activity_phone_details">फ़ोन स्थिति</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">उपयोगकर्ता नाम</string>
+    <string name="prompt_password">पासवर्ड</string>
+    <string name="action_sign_in">प्रवेश</string>
+    <string name="action_sign_in_short">प्रवेश</string>
+    <string name="error_incorrect_password">यह पासवर्ड गलत है</string>
+    <string name="error_field_required">यह क्षेत्र आवश्यक है</string>
+    <string name="auth_in_progress">कृपया प्रतीक्षा करें… प्रमाणीकरण प्रक्रिया प्रगति में है…</string>
+
+    <!-- Strings related to Activities -->
+    <string name="sms_activity_desc">भेजे गए संदेश</string>
+    <string name="contact_activity_desc">फोन नंबर के साथ संपर्क सूची</string>
+    <string name="all_sms_activity_desc">इनबॉक्स, भेजा गया और ड्राफ़्ट से सभी संदेश</string>
+    <string name="phone_details_activity_desc">फ़ोन विवरण</string>
+    <string name="slate_activity_desc">चित्र के लिए एक ड्राइंग कैनवास</string>
+
+    <string name="contactActivityName">फोन संपर्क सूची</string>
+    <string name="smsActivityName">भेजे गए संदेश</string>
+    <string name="biometricActivityName">बायोमेट्रिक साइन-इन</string>
+    <string name="phone_details_label">फ़ोन विवरण</string>
+    <string name="phone_details_button_label">ठीक है, धन्यवाद!</string>
+    <string name="tab_text_1">इनबॉक्स</string>
+    <string name="tab_text_2">भेजा गया</string>
+    <string name="tab_text_3">ड्राफ़्ट</string>
+
+    <!--Contact alert messages -->
+    <string name="contact_id">पहचान: </string>
+    <string name="contact_Name">नाम : </string>
+    <string name="contact_phoneno">फोन नंबर: </string>
+    <string name="contact_timescon">संपर्क किया : </string>
+    <string name="contact_times">बार.</string>
+    <string name="contact_action_cancel">रद्द करें</string>
+    <string name="contact_loading">कृपया प्रतीक्षा करें … संपर्क सूची तैयार किया जा रहा है…</string>
+
+    <!--SMS Details-->
+    <string name="sms_details">संदेश विवरण</string>
+    <string name="sms_to">फोन नंबर</string>
+    <string name="sms_date">दिनांक</string>
+    <string name="sms_status">स्थिति</string>
+    <string name="sms_read">पढ़ा</string>
+    <string name="sms_body">संदेश</string>
+    <string name="sms_address">पता</string>
+    <string name="sms_type">प्रकार</string>
+    <string name="sms_contact">संपर्क</string>
+    <string name="sms_tot_char">कुल वर्ण</string>
+
+
+    <!--Menu items-->
+    <string name="choose_colour">रंग चुनें</string>
+    <string name="home">मुखपृष्ठ</string>
+    <string name="clear">सब मिटाएँ</string>
+
+    <!--For slate-->
+    <string name="colour_red">लाल</string>
+    <string name="colour_blue">हरा</string>
+    <string name="colour_green">नीला</string>
+    <string name="done">ठीक है</string>
+
+    <!--For Login-->
+
+    <!--For Phone Status-->
+    <string name="status_battery">बैटरी</string>
+    <string name="status_battery_level">मौजूदा स्तर</string>
+    <string name="status_battery_charging">चार्ज</string>
+    <string name="status_battery_discharging">निर्वहन</string>
+    <string name="status_battery_status">स्थिति</string>
+    <string name="status_battery_charging_USB">यूएसबी प्लग</string>
+    <string name="status_battery_charging_AC">एसी बिजली की आपूर्ति</string>
+    <string name="status_battery_docking">डॉकिंग</string>
+
+    <string name="status_network">नेटवर्क</string>
+    <string name="status_network_connected">योजित</string>
+    <string name="status_network_disconnected">वियोजित</string>
+    <string name="status_network_connection">संपर्क</string>
+    <string name="status_network_connection_wifi">वाई - फाई</string>
+    <string name="status_network_connection_cell_data">सेलुलर डेटा</string>
+
+    <string name="status_Bluetooth">ब्लूटूथ</string>
+    <string name="status_Bluetooth_status">स्थिति</string>
+    <string name="status_Bluetooth_status_enabled">सक्रिय</string>
+    <string name="status_Bluetooth_status_disabled">निष्क्रिय</string>
+    <string name="status_Bluetooth_status_unsupported">असमर्थित</string>
+    <string name="status_Bluetooth_profile_headset">हेडसेट</string>
+    <string name="status_Bluetooth_profile_a2dp">A2DP</string>
+    <string name="status_Bluetooth_profile_health">आरोग्य</string>
+    <string name="status_Bluetooth_profile_connected">योजित</string>
+    <string name="status_Bluetooth_profile_disconnected">वियोजित</string>
+
+
+    <!--Fingerprint related-->
+    <string name="title_fingerprint">बायोमेट्रिक साइन-इन</string>
+    <string name="desc_fingerprint">बायोमेट्रिक स्कैन आरंभ करने के लिए कृपया अपनी उंगली को स्कैनर पर रखें.</string>
+    <string name="action_use_fingerprint">फ़िंगरप्रिंट का उपयोग करें</string>
+    <string name="bio_scan_limit_exceeded">असफल प्रयास कारणों के लिए बॉयोमीट्रिक स्कैन अक्षम है । </string>
+    <string name="redirect_login">प्रवेश पृष्ठ पर नेविगेट कर रहेहै। </string>
+    <string name="back_to_login">लॉगिन पृष्ठ पर वापस जाएं</string>
+
+    <string name="lock_screen_not_enabled">सेटिंग में लॉक स्क्रीन सुरक्षा सक्षम नहीं है.</string>
+    <string name="atleast_one_fingerprint_needed">सेटिंग में कम से कम एक फिंगरप्रिंट पंजीकृत करें वरना डिफ़ॉल्ट लॉगिन का उपयोग करें …</string>
+    <string name="fingerprint_permission_not_enabled">सेटिंग में फ़िंगरप्रिंट प्रमाणीकरण अनुमति सक्षम नहीं है …</string>
+    <string name="fingerprint_scanner_not_found">आपके डिवाइस में फ़िंगरप्रिंट सेंसर नहीं है. कृप्या डिफ़ॉल्ट लॉगिन का उपयोग करें …</string>
+    <string name="fingerprint_auth_error">फ़िंगरप्रिंट प्रमाणीकरण त्रुटि</string>
+    <string name="fingerprint_auth_failed">फ़िंगरप्रिंट प्रमाणीकरण विफल</string>
+    <string name="fingerprint_auth_help">फ़िंगरप्रिंट प्रमाणीकरण सहायता</string>
+    <string name="fingerprint_auth_success">फिंगरप्रिंट प्रमाणीकरण सफल रहा।  होम स्क्रीन पर नेविगेट कर रहेहै ।</string>
+
+    <!-- Toast /Messages -->
+    <string name="feature_not_supported">माफ़ कीजिये! यह फ़ंक्शन अभी सक्रिय नहीं है…</string>
+    <string name="contact_access_denied">अनुमति से वंचित ! संपर्क सूची प्राप्त नहीं कर सके …</string>
+    <string name="phone_access_denied">अनुमति से वंचित ! फ़ोन स्थिति प्राप्त नहीं कर सके …</string>
+    <string name="sms_access_denied">अनुमति से वंचित ! संदेश सूचना प्राप्त नहीं कर सके…</string>
+    <string name="contact_load_failed">संपर्कों को लोड नहीं किया जा सका…!</string>
+    <string name="contact_cache_being_updated">संपर्कों के लिए ऐप कैश अपडेट किया जा रहा है…!</string>
+    <string name="contact_cache_updated">संपर्कों के ऐप कैश को सफलतापूर्वक अपडेट किया गया…!</string>
+    <string name="login_welcome">स्वागत हे, </string>
+
+</resources>

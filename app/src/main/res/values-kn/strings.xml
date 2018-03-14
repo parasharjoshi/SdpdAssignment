@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">SDPD ನಿಯೋಜನೆ</string>
+    <string name="title_activity_Home">ಮುಖಪುಟ</string>
+    <string name="title_activity_login">ಪ್ರವೇಶ</string>
+    <string name="title_activity_sentsms">ಕಳುಹಿಸಿದ ಸಂದೇಶಗಳು</string>
+    <string name="title_activity_allsms">ಎಲ್ಲಾ ಸಂದೇಶಗಳು</string>
+    <string name="title_activity_contact">ಸಂಪರ್ಕಗಳ ಪಟ್ಟಿ</string>
+    <string name="title_activity_slate">ಚಿತ್ರಪಟ</string>
+    <string name="title_activity_phone_details">ಫೋನ್ ಸ್ಥಿತಿ</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">ಬಳಕೆದಾರರ ಹೆಸರು</string>
+    <string name="prompt_password">ಪಾಸ್ವರ್ಡ್</string>
+    <string name="action_sign_in">ಪ್ರವೇಶ</string>
+    <string name="action_sign_in_short">ಪ್ರವೇಶ</string>
+    <string name="error_incorrect_password">ಈ ಪಾಸ್ವರ್ಡ್ ತಪ್ಪಾಗಿದೆ</string>
+    <string name="error_field_required">ಈ ಕ್ಷೇತ್ರ ಅಗತ್ಯವಿದೆ</string>
+    <string name="auth_in_progress">ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ… ದೃಢೀಕರಣ ಪ್ರಕ್ರಿಯೆಯು ಪ್ರಗತಿಯಲ್ಲಿದೆ…</string>
+
+    <!-- Strings related to Activities -->
+    <string name="sms_activity_desc">ಕಳುಹಿಸಿದ SMSಗಳು</string>
+    <string name="contact_activity_desc">ದೂರವಾಣಿ ಸಂಖ್ಯೆ ಇರುವ ಸಂಪರ್ಕಗಳ ಪಟ್ಟಿ.</string>
+    <string name="all_sms_activity_desc">ಸ್ವೀಕರಿಸಲಾದ, ಕಳುಹಿಸಲಾದ ಮತ್ತು ಡ್ರಾಫ್ಟ್ ಸಂದೇಶಗಳು</string>
+    <string name="phone_details_activity_desc">ಫೋನ್ ಸ್ಥಿತಿ</string>
+    <string name="slate_activity_desc">ಚಿತ್ರ ಬಿಡಿಸಲು ಒಂದು ಚಿತ್ರಪಟ</string>
+
+    <string name="contactActivityName">ಸಂಪರ್ಕಗಳ ಪಟ್ಟಿ</string>
+    <string name="smsActivityName">ಕಳುಹಿಸಿದ ಸಂದೇಶಗಳು</string>
+    <string name="biometricActivityName">ಬೆರಳಚ್ಚು ಪ್ರವೇಶ</string>
+    <string name="phone_details_label">ಫೋನ್ ವಿವರಗಳು</string>
+    <string name="phone_details_button_label">ಸರಿ, ಧನ್ಯವಾದಗಳು!</string>
+    <string name="tab_text_1">ಇನ್ಬಾಕ್ಸ್</string>
+    <string name="tab_text_2">ಕಳುಹಿಸಲಾದ</string>
+    <string name="tab_text_3">ಡ್ರಾಫ್ಟ್</string>
+
+    <!--Contact alert messages -->
+    <string name="contact_id">ಗುರುತು : </string>
+    <string name="contact_Name">ಹೆಸರು : </string>
+    <string name="contact_phoneno">ದೂರವಾಣಿ ಸಂಖ್ಯೆ: </string>
+    <string name="contact_timescon">ಸಂಪರ್ಕಿಸಿದ್ದು : </string>
+    <string name="contact_times">ಬಾರಿ.</string>
+    <string name="contact_action_cancel">ರದ್ದು ಮಾಡಿ</string>
+    <string name="contact_loading">ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ… ಸಂಪರ್ಕಗಳ ಪಟ್ಟಿ ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ..</string>
+
+    <!--SMS Details-->
+    <string name="sms_details">ಸಂದೇಶದ ವಿವರಗಳು</string>
+    <string name="sms_to">ದೂರವಾಣಿ ಸಂಖ್ಯೆ</string>
+    <string name="sms_date">ದಿನಾಂಕ</string>
+    <string name="sms_status">ಸ್ಥಿತಿ</string>
+    <string name="sms_read">ಓದಲಾಗಿದೆ</string>
+    <string name="sms_body">ಸಂದೇಶ</string>
+    <string name="sms_address">ವಿಳಾಸ</string>
+    <string name="sms_type">ಮಾದರಿ</string>
+    <string name="sms_contact">ಸಂಪರ್ಕ</string>
+    <string name="sms_tot_char">ಒಟ್ಟು ಅಕ್ಷರಗಳು</string>
+
+
+    <!--Menu items-->
+    <string name="choose_colour">ಬಣ್ಣವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="home">ಮುಖಪುಟ</string>
+    <string name="clear">ಎಲ್ಲಾ ಅಳಿಸು</string>
+
+    <!--For slate-->
+    <string name="colour_red">ಕೆಂಪು</string>
+    <string name="colour_blue">ನೀಲಿ</string>
+    <string name="colour_green">ಹಸಿರು</string>
+    <string name="done">ಸರಿ</string>
+
+    <!--For Login-->
+
+    <!--For Phone Status-->
+    <string name="status_battery">ಬ್ಯಾಟರಿ</string>
+    <string name="status_battery_level">ಪ್ರಸ್ತುತ ಮಟ್ಟ</string>
+    <string name="status_battery_charging">ಚಾರ್ಜಿಂಗ್</string>
+    <string name="status_battery_discharging">ನಿರ್ವಹಿಸು</string>
+    <string name="status_battery_status">ಸ್ಥಿತಿ</string>
+    <string name="status_battery_charging_USB">ಯುಎಸ್ಬಿ ಪ್ಲಗ್</string>
+    <string name="status_battery_charging_AC">ಎಸಿ ವಿದ್ಯುತ್ ಪ್ಲಗ್</string>
+    <string name="status_battery_docking">ಡಾಕಿಂಗ್</string>
+
+    <string name="status_network">ನೆಟ್ವರ್ಕ್</string>
+    <string name="status_network_connected">ಸಂಪರ್ಕದಲ್ಲಿದೆ</string>
+    <string name="status_network_disconnected">ಸಂಪರ್ಕದಲ್ಲಿಲ್ಲ</string>
+    <string name="status_network_connection">ಸಂಪರ್ಕ</string>
+    <string name="status_network_connection_wifi">ವೈಫೈ</string>
+    <string name="status_network_connection_cell_data">ಸೆಲ್ಯುಲರ್ ಡೇಟಾ</string>
+
+    <string name="status_Bluetooth">ಬ್ಲೂಟೂತ್</string>
+    <string name="status_Bluetooth_status">ಸ್ಥಿತಿ</string>
+    <string name="status_Bluetooth_status_enabled">ಸಕ್ರಿಯವಾಗಿದೆ</string>
+    <string name="status_Bluetooth_status_disabled">ನಿಷ್ಕ್ರಿಯವಾಗಿದೆ</string>
+    <string name="status_Bluetooth_status_unsupported">ಬೆಂಬಲಿಸುವುದಿಲ್ಲ</string>
+    <string name="status_Bluetooth_profile_headset">ಹೆಡ್ಸೆಟ್</string>
+    <string name="status_Bluetooth_profile_a2dp">A2DP</string>
+    <string name="status_Bluetooth_profile_health">ಆರೋಗ್ಯ</string>
+    <string name="status_Bluetooth_profile_connected">ಸಂಪರ್ಕದಲ್ಲಿದೆ</string>
+    <string name="status_Bluetooth_profile_disconnected">ಸಂಪರ್ಕದಲ್ಲಿಲ್ಲ</string>
+
+
+    <!--Fingerprint related-->
+    <string name="title_fingerprint">ಬೆರಳಚ್ಚು ಪ್ರವೇಶ</string>
+    <string name="desc_fingerprint">ಬಯೋಮೆಟ್ರಿಕ್ ಸ್ಕ್ಯಾನ್ ಪ್ರಾರಂಭಿಸಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ಬೆರಳನ್ನು ಸ್ಕ್ಯಾನರ್ ಮೆಲೆ ಇರಿಸಿ.</string>
+    <string name="action_use_fingerprint">ಫಿಂಗರ್ಪ್ರಿಂಟ್ ಉಪಯೋಗಿಸಿ</string>
+    <string name="bio_scan_limit_exceeded">ಸ್ಕ್ಯಾನ್ ಮಿತಿಗಳನ್ನು ಮೀರಿದಕ್ಕಾಗಿ ಬಯೋಮೆಟ್ರಿಕ್ ಸ್ಕ್ಯಾನ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ.</string>
+    <string name="redirect_login">ಲಾಗಿನ್ ಪುಟಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+    <string name="back_to_login">ಲಾಗಿನ್ ಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ</string>
+
+    <string name="lock_screen_not_enabled">ಲಾಕ್ ಸ್ಕ್ರೀನ್ ಭದ್ರತೆ ಸೆಟ್ಟಿಂಗ್ಗಳಲ್ಲಿ ಸಕ್ರಿಯಗೊಳಿಸಿಲ್ಲ.</string>
+    <string name="atleast_one_fingerprint_needed">ಸೆಟ್ಟಿಂಗ್ಗಳಲ್ಲಿ ಕನಿಷ್ಠ ಒಂದು ಫಿಂಗರ್ಪ್ರಿಂಟ್ ಅನ್ನು ನೋಂದಾಯಿಸಿ ಅಥವಾ ಮುಂದುವರೆಯಲು ಡೀಫಾಲ್ಟ್ ಲಾಗಿನ್ ಬಳಸಿ…</string>
+    <string name="fingerprint_permission_not_enabled">ಫಿಂಗರ್ಪ್ರಿಂಟ್ ದೃಢೀಕರಣ ಅನುಮತಿ ಸೆಟ್ಟಿಂಗ್ಗಳಲ್ಲಿ ಸಕ್ರಿಯಗೊಳಿಸಿಲ್ಲ…</string>
+    <string name="fingerprint_scanner_not_found">ನಿಮ್ಮ ಸಾಧನವು ಫಿಂಗರ್ಪ್ರಿಂಟ್ ಸಂವೇದಕವನ್ನು ಹೊಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ಡೀಫಾಲ್ಟ್ ಲಾಗಿನ್ ಬಳಸಿ…</string>
+    <string name="fingerprint_auth_error">ಫಿಂಗರ್ಪ್ರಿಂಟ್ ದೃಢೀಕರಣ ದೋಷ</string>
+    <string name="fingerprint_auth_failed">ಫಿಂಗರ್ಪ್ರಿಂಟ್ ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="fingerprint_auth_help">ಫಿಂಗರ್ಪ್ರಿಂಟ್ ದೃಢೀಕರಣ ಸಹಾಯ</string>
+    <string name="fingerprint_auth_success">ಫಿಂಗರ್ಪ್ರಿಂಟ್ ದೃಢೀಕರಣ ಯಶಸ್ವಿಯಾಗಿದೆ. ಮುಖಪುಟಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+
+    <!-- Toast /Messages -->
+    <string name="feature_not_supported">ಕ್ಷಮಿಸಿ! ಈ ಕಾರ್ಯವೈಖರಿಯು ಇನ್ನೂ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ…</string>
+    <string name="contact_access_denied">ಅನುಮತಿ ನಿರಾಕರಿಸಲಾಗಿದೆ! ಸಂಪರ್ಕಗಳ ಪಟ್ಟಿ ಪಡೆಯಲಾಗಲಿಲ್ಲ…</string>
+    <string name="phone_access_denied">ಅನುಮತಿ ನಿರಾಕರಿಸಲಾಗಿದೆ! ಫೋನ್ ಸ್ಥಿತಿ ಪಡೆಯಲಾಗಲಿಲ್ಲ…</string>
+    <string name="sms_access_denied">ಅನುಮತಿ ನಿರಾಕರಿಸಲಾಗಿದೆ! ಸಂದೇಶಗಳು ಪಡೆಯಲಾಗಲಿಲ್ಲ…</string>
+    <string name="contact_load_failed">ಸಂಪರ್ಕಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ…!</string>
+    <string name="contact_cache_being_updated">ಅಪ್ಲಿಕೇಶನ್ಗಾಗಿ ಸಂಪರ್ಕ ಸಂಗ್ರಹವನ್ನು ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ…!</string>
+    <string name="contact_cache_updated">ಅಪ್ಲಿಕೇಶನ್ಗಾಗಿ ಸಂಪರ್ಕ ಸಂಗ್ರಹವನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ…!</string>
+    <string name="login_welcome">ಸ್ವಾಗತ, </string>
+
+</resources>
